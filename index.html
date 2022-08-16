@@ -2,46 +2,28 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        
-        <title>Adam Profile</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover">
-        <link rel="stylesheet" href="./index.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
-        <script src="./scripts/BlurFilterEffect.js"></script>
+        <title>Responsive Navbar</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <div id="vanta"></div>
-        <main>
-            <header>
-                <img src="./img/fcbfa9861c95571302098645f8b1a223.png">
-                <h1>Adam Rahmat Ilahi</h1>
-            </header>
-            
+        <nav>
             <div class="container">
-                <a href="https://www.facebook.com/adam.rahmatilahi">
-                    <div class="button">
-                        <img class="icon-fb" src="./img/icons8-facebook.svg" alt="Facebook" width="25">
-                        Facebook
-                    </div>
-                </a>
-                
-                <a href="https://github.com/Adamjatim">
-                    <div class="button">
-                        <img class="icon-git" src="./img/icons8-github.svg" alt="Github" width="25">
-                        Github
-                    </div>
-                </a>
-                
-                <a href="https://www.instagram.com/adam_jatim/">
-                    <div class="button">
-                        <img class="icon-ig" src="./img/icons8-instagram.svg" alt="Instagram" width="25">
-                        Instagram
-                    </div>
-                </a>
-                
+                <h1>Adam Jatim</h1>
+                <div class="menu">
+                    <a href="#" class="is-active">Home</a>
+                    <a href="">About</a>
+                    <a href="">Project</a>
+                    <a href="">Contact</a>
+                </div>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
-        </main>
-        
+        </nav>
+
+        <script src="./main.js"></script>
     </body>
 </html>
